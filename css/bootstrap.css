@@ -4491,12 +4491,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+    color:darkgreen;
+    margin-bottom: 0px;
+    display: inline-block;
+    justify-content: center;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color:darkgreen;
+  justify-content: center;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -4506,11 +4509,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-text {
-  color: #999999;
+  color: darkgreen;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: darkgreen;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -4523,7 +4528,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #080808;
+  background-color: aquamarine;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -4592,6 +4599,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
     background-color: #080808;
+    
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
