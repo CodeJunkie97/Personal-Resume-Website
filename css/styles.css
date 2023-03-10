@@ -8,11 +8,32 @@
     background-size: cover;
 }
 
-
+.about-container{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1220px;
+    height: 1000px;
+    background-size: cover;
+    background-image: url("images/aboutbackground.jpg");
+    background-color:powderblue
+}
 .menu-wrap{
     background-color: #E4F9F5;
     margin-left: 0px;
     margin-right: 0px;
+}
+i{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: darkgreen;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:larger;
+    color:darkgreen;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 body{
@@ -24,9 +45,11 @@ body{
 h1{
     margin:0;
     padding-top: 200px;
+    color: darkgreen;
     font-family: 'Sacramento', cursive;
 }
 
 h3{
     font-family: 'Merriweather Sans', sans-serif;
+    color:darkgreen
 }
