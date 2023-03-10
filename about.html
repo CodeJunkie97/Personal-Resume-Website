@@ -17,20 +17,25 @@
 
 <body>
     <!-- Navigation Menu-->
-    <nav class = "menu" id = "navMenu">
-        <div class = "menu-wrap">
-            <a href = "index.html" class = "smoothScroll">Home</a>
-            <a href = "about.html" class = "smoothScroll">About Me</a>
-            <a href = "skills.html" class = "smoothScroll">Skills/Experience</a>
-            <a href = "portfolio.html" class = "smoothScroll">Portfolio</a>
-            <a href = "contact.html" class = "smoothScroll">Contact Me</a>
-        </div>
-
-    </nav>
+    <div class = "about-container">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid"> 
+              <div class="navbar-header">
+                <img src="images/bitmoji.png" alt="Ian's bitmoji" width="75" height="55" style = "padding-right: 30px;">
+              </div>
+              <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class = "active"><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+              </ul>
+            </div>
+          </nav>
 
     <!-- About Section -->
     <section id="about" name="about">
-        <div class="about-container">
+        <div>
             <div class = "about-image-container">
                 <img src="images/bitmoji.png" alt="Ian's bitmoji" width="175" height="175">
             </div>
@@ -50,7 +55,7 @@
         <p><a href = "contact.html"><button type="button" class="btn btn-warning">CONTACT ME HERE</button></a></p>
         </div>
     </section>
-
+</div>
 </body>
 
 </html>
